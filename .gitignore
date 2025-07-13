@@ -1,0 +1,13 @@
+# Xcode
+*.xcuserstate
+*.xcuserdata/
+project.xcworkspace/xcuserdata/
+
+# Build
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+
+# Other
+*.DS_Store
