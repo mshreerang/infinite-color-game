@@ -27,11 +27,35 @@
 		F4A570A82E1C1DA600738955 /* InfiniteColorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteColorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A570B62E1C1DA700738955 /* InfiniteColorGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteColorGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A570C02E1C1DA700738955 /* InfiniteColorGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteColorGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E6D48A2E215F7F00645DD3 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F4E6D4842E202E1700645DD3 /* Exceptions for "InfiniteColorGame" folder in "InfiniteColorGameTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				firework.wav,
+				Tap.wav,
+			);
+			target = F4A570B52E1C1DA700738955 /* InfiniteColorGameTests */;
+		};
+		F4E6D4852E202E1700645DD3 /* Exceptions for "InfiniteColorGame" folder in "InfiniteColorGameUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				firework.wav,
+				Tap.wav,
+			);
+			target = F4A570BF2E1C1DA700738955 /* InfiniteColorGameUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F4A570AA2E1C1DA600738955 /* InfiniteColorGame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F4E6D4842E202E1700645DD3 /* Exceptions for "InfiniteColorGame" folder in "InfiniteColorGameTests" target */,
+				F4E6D4852E202E1700645DD3 /* Exceptions for "InfiniteColorGame" folder in "InfiniteColorGameUITests" target */,
+			);
 			path = InfiniteColorGame;
 			sourceTree = "<group>";
 		};
@@ -75,6 +99,7 @@
 		F4A5709F2E1C1DA600738955 = {
 			isa = PBXGroup;
 			children = (
+				F4E6D48A2E215F7F00645DD3 /* GameSession.swift */,
 				F4A570AA2E1C1DA600738955 /* InfiniteColorGame */,
 				F4A570B92E1C1DA700738955 /* InfiniteColorGameTests */,
 				F4A570C32E1C1DA700738955 /* InfiniteColorGameUITests */,
@@ -391,6 +416,7 @@
 				CODE_SIGN_ENTITLEMENTS = InfiniteColorGame/InfiniteColorGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JC8RCB5995;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -428,6 +454,7 @@
 				CODE_SIGN_ENTITLEMENTS = InfiniteColorGame/InfiniteColorGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JC8RCB5995;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
